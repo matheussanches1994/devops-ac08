@@ -73,4 +73,4 @@ def cadastro_vestibulares(request):
             'vestibulares': Vestibular.objects.all(),
             'year':datetime.now().year,
         })
-    )
+)
